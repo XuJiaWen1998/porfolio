@@ -1,16 +1,11 @@
 body {
-  margin: 0;
   font-family: "Roboto", sans-serif;
   width: 100%;
   left: 50%;
   font-family: "Comfortaa", cursive;
-  background-color: hsl(120, 100%, 95%);
+  background-color: #e4e4e4;
 }
-header {
-  display: flex;
-  justify-content: space-around;
-  background-color: hsl(209, 100%, 95%);
-}
+
 img {
   width: 15%;
   height: auto;
@@ -21,4 +16,21 @@ img {
 main {
   margin-left: 18%;
   width: 80%;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  height: 2cm;
+}
+.top-link {
+  color: black;
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  align-self: center;
+}
+.top-link:hover {
+  color: thistle;
 }

@@ -45,3 +45,6 @@ body {
 #Title {
   font-size: 200%;
 }
+main {
+  max-height: 21.5cm;
+}
