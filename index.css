@@ -1,24 +1,36 @@
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  width: 100%;
-  left: 50%;
-  font-family: "Comfortaa", cursive;
-  background-color: hsl(120, 100%, 95%);
-}
-header {
+.top-bar {
   display: flex;
-  justify-content: space-around;
-  background-color: hsl(209, 100%, 95%);
+  justify-content: space-evenly;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  height: 2cm;
 }
-img {
-  width: 15%;
-  height: auto;
-  min-width: 15%;
+.top-link {
+  color: black;
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  align-self: center;
+}
+body {
+  background-image: url("background.png");
+  background-size: cover;
+}
+.display {
+  display: flex;
+  justify-content: space-evenly;
+}
+#image {
   border-radius: 30px;
+  max-width: 15%;
+  max-height: auto;
 }
-
-main {
-  margin-left: 18%;
-  width: 80%;
+.display {
+  align-self: center;
+  color: black;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+#name {
+  font-size: x-large;
 }
