@@ -25,8 +25,8 @@ body {
   height: 21.5cm;
 }
 #image {
-  border-radius: 30px;
-  max-width: 15%;
+  border-radius: 40%;
+  max-width: 20%;
   max-height: auto;
   align-self: center;
 }
