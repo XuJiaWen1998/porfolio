@@ -1,7 +1,7 @@
 .top-bar {
   display: flex;
   justify-content: space-evenly;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: whitesmoke;
   height: 2cm;
 }
@@ -12,6 +12,9 @@
   font-weight: bold;
   align-self: center;
 }
+.top-link:hover {
+  color: thistle;
+}
 body {
   background-image: url("background.png");
   background-size: cover;
@@ -19,11 +22,13 @@ body {
 .display {
   display: flex;
   justify-content: space-evenly;
+  height: 21.5cm;
 }
 #image {
   border-radius: 30px;
   max-width: 15%;
   max-height: auto;
+  align-self: center;
 }
 .display {
   align-self: center;
@@ -31,6 +36,12 @@ body {
   font-family: "Comfortaa", cursive;
   font-weight: bold;
 }
+.name-title {
+  align-self: center;
+}
 #name {
-  font-size: x-large;
+  font-size: 500%;
+}
+#Title {
+  font-size: 200%;
 }
