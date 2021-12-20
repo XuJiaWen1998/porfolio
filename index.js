@@ -5,6 +5,7 @@ let srcEgg = [
   "eggcellent4.JPG",
   "eggcellent5.JPG",
   "eggcellent6.JPG",
+  "eggcellent7.JPG",
 ];
 let srcBit = [
   "bitcoin1.JPG",
