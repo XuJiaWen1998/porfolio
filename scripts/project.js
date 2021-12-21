@@ -30,37 +30,37 @@ function init() {
   webLeft.addEventListener("click", () => {
     let image = document.getElementById("web-img");
     currEgg = increment(currEgg, srcEgg.length);
-    let src = `image/${srcEgg[currEgg]}`;
+    let src = `../image/${srcEgg[currEgg]}`;
     image.setAttribute("src", src);
   });
   webRight.addEventListener("click", () => {
     let image = document.getElementById("web-img");
     currEgg = decrement(currEgg, srcEgg.length);
-    let src = `image/${srcEgg[currEgg]}`;
+    let src = `../image/${srcEgg[currEgg]}`;
     image.setAttribute("src", src);
   });
   bitRight.addEventListener("click", () => {
     let image = document.getElementById("bit-img");
     currBit = increment(currBit, srcBit.length);
-    let src = `image/${srcBit[currBit]}`;
+    let src = `../image/${srcBit[currBit]}`;
     image.setAttribute("src", src);
   });
   bitLeft.addEventListener("click", () => {
     let image = document.getElementById("bit-img");
     currBit = decrement(currBit, srcBit.length);
-    let src = `image/${srcBit[currBit]}`;
+    let src = `../image/${srcBit[currBit]}`;
     image.setAttribute("src", src);
   });
   gameRight.addEventListener("click", () => {
     let image = document.getElementById("game-img");
     currGame = increment(currGame, srcGame.length);
-    let src = `image/${srcGame[currGame]}`;
+    let src = `../image/${srcGame[currGame]}`;
     image.setAttribute("src", src);
   });
   gameLeft.addEventListener("click", () => {
     let image = document.getElementById("game-img");
     currGame = decrement(currGame, srcGame.length);
-    let src = `image/${srcGame[currGame]}`;
+    let src = `../image/${srcGame[currGame]}`;
     image.setAttribute("src", src);
   });
 }

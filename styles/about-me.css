@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Comfortaa", cursive;
+  background-color: #e4e4e4;
+}
+h1 {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  font-size: x-large;
+}
+#skills {
+  max-width: 80%;
+  max-height: auto;
+}
+
+.skills {
+  margin-left: 20%;
+  width: 70%;
+}
+#skills-title {
+  margin-left: 43%;
+}
